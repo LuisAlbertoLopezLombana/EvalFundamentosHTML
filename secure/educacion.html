@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hoja de Vida</title>
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+	<section>
+		<h2>Educación</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>Culminó</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2015</td>
+					<td>IBM</td>
+					<td>Barrancabermeja</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2016</td>
+					<td>Oracle</td>
+					<td>Bogotá</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Microsoft</td>
+					<td>Bogotá</td>
+					<td>Si</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<hr>
+	<section>
+		<form class="" action="educacion.html" method="post">
+			<h2>Agregar Estudios</h2>
+			<section>
+				<label for="anio"><strong>Año:</strong></label> <select id="anio"
+					class="" name="Lista de años">
+					<option value="2016">2017</option>
+					<option value="2016">2018</option>
+					<option value="2016">2019</option>
+					<option value="2016">2020</option>
+				</select>
+			</section>
+			<br />
+			<section>
+				<label for="inst"><strong>Institución:</strong></label> <input
+					id="inst" type="text" name="Campo institución" required> <br />
+
+				<label for="lugar"><strong>Lugar:</strong></label>
+				<textarea id="lugar" name="Área de texto lugar" rows="2" cols="26"></textarea>
+
+				<br /> <label for="culm"><strong>¿Culminó?</strong></label> <input
+					id="culm" type="radio" name="culmradio" value="Si">Si <input
+					id="culm" type="radio" name="culmradio" value="No ">No
+			</section>
+			<br />
+			<section>
+				<button type="submit">Enviar</button>
+			</section>
+		</form>
+	</section>
+	<hr>
+</body>
+</html>
